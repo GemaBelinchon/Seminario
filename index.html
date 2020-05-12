@@ -1,1 +1,118 @@
-<div id="app"></div>
+<head>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3plus/1.9.2/d3plus.full.min.js"></script>
+</head>
+<h1>Seminario </h1>
+<br>Nombre: Gema Belinchón
+<br>Url: <a href="https://07mbig-seminario.stackblitz.io">https://07mbig-seminario.stackblitz.io</a>
+
+<body>
+    <h1 class="main-title">07MBIG-Seminario </h1>
+    <h4 class="main-autor">Nombre: Gema Belinchón Serrano</h3>
+    <h4 class="main-url">Url: <a href="https://07mbig-seminario.stackblitz.io">https://07mbig-seminario.stackblitz.io</a></h3>
+    <h4 class="main-fuente">Fuente: <a href="https://worldhappiness.report/">https://worldhappiness.report/</a></h3>
+    <h4 class="main-fecha">Fecha: Mayo-2019</h4>
+    <br>
+    <br>
+
+    <!-- add intro text to the page body -->
+    <div class="summary">
+        <h2 class="text-title">Introducción</h2>
+        <div class="text">
+<p>Este informe está dirigido al público en general y tiene por objeto responder a la pregunta ¿Qué factores nos hacen más felices, el dinero, la salud, una estructura político-empresarial sin corrupción, el  apoyo familiar..?.</p>
+<p>El Informe Mundial de la Felicidad es una encuesta histórica sobre el estado de la felicidad global que clasifica a los países según lo felices que se sienten sus ciudadanos. Los datos incluidos para cada uno de los países son:</p>
+<p>Puntuación de Felicidad: Estas puntuaciones se basan en la respuesta media nacional a la pregunta: “Imagine una escalera con pasos numerados de 0 (peor vida) a 10 (mejor vida). ¿En qué escalón se sitúa usted?</p>
+<p>Los valores de 6 factores que contribuyen a que las evaluaciones sean más altas en cada país que en la distopía, un país hipotético que tiene valores iguales a los promedios nacionales más bajos del mundo para cada uno de los seis factores. Dichos factores explicativos son: </p>
+&nbsp&nbsp&nbsp •	GDP per cápita.
+<br>
+&nbsp&nbsp&nbsp •	Expectativa de vida saludable.
+<br>
+&nbsp&nbsp&nbsp •	Apoyo social (tener alguien con quien contar en tiempos de problemas)
+<br>
+&nbsp&nbsp&nbsp •	Libertad para tomar decisiones en la vida.
+<br>
+&nbsp&nbsp&nbsp •	Generosidad (donación a fines benéficos).
+<br>
+&nbsp&nbsp&nbsp •	Percepción de la corrupción política y empresarial.
+
+
+            </br>
+            </br>
+            </br>
+        </div>
+    </div>
+
+    <!-- add data visualization -->
+    <div class="plot">
+        <!-- The first bar chart -->
+        <h2 class="plot-title">Hombres y mujeres del pasaje</h2>
+        <div class="text">
+          Uso el tipo de gráfico circular o de tarta para representar las proporciones entre mujeres/hombres y cada una de las 3 categorias. Este tipo de gráfico es adecuado en este caso para representar proporciones en las que no es importante la precisión. Tambien podría haber utilizado gráficos de barras. <br>
+          Se han utilizado la herramienta tableau online para los gráficos de barras y circulares.
+
+        </div>  
+
+        <div id="plotContainer1">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/NL0HDs1/Titanic4.png" alt="Titanic4" border="0"></a>
+        </div>
+        
+          <h2 class="plot-title">Categorías del pasaje</h2>
+        <div id="plotContainer2">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/Z11BTL2/Titanic5.png" alt="Titanic5" border="0"></a>
+        </div>
+
+
+
+        <h2 class="plot-title">SUPERVIVENCIA DENTRO DE CADA GRUPO</h2>
+        <div class="text">
+          En esta representación ya incluimos la variable supervivencia que es la clave de nuestro análisis. Mediante gráficos de barras apiladas ya podemos anticipar como la supervivencia de los pasajeros no parece aleatoria sino que parece depender tanto del sexo del pasajero como de la categoria del pasaje.
+          Podría haber utilizado gráficos circulares o de tarta como en el caso anterior pero en este caso para las categorías  los valores de los supervivientes están próximos.
+        </div> 
+
+        <div id="plotContainer3">
+        <a href="https://ibb.co/swp6Pcs"><img src="https://i.ibb.co/J7Wyd8r/Supervivientes-por-Grupos.png" alt="Supervivientes-por-Grupos" border="0"></a>
+        </div>
+        
+        
+        </br>
+        </br>
+
+        <!-- The second bar chart -->
+        <h2 class="plot-title">Supervivientes</h2>
+        <div id="plotContainer4">
+          <div class="text">
+              Finalmente tratamos de representar en un mismo gráfico el cruce de las dos variables cualitativas(sexo y pasaje) que nos interesa analizar sobre la varialible cantidad de supervivientes o fallecidos(variable cuantitativa). 
+               
+          </div>
+<br>
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/fpg1ZT2/screenshot-eu-west-1a-online-tableau-com-2019-04-02-14-29-41.png" alt="screenshot-eu-west-1a-online-tableau-com-2019-04-02-14-29-41" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'></a><br />
+ 
+ <a href="https://imgbb.com/"><img src="https://i.ibb.co/L1DZRsp/screenshot-eu-west-1a-online-tableau-com-2019-04-02-14-32-07.png" alt="screenshot-eu-west-1a-online-tableau-com-2019-04-02-14-32-07" border="0"></a><br /><a target='_blank' href='https://es.imgbb.com/'></a><br />
+<br>
+<a href="https://ibb.co/Dt23NTN"><img src="https://i.ibb.co/CzGxqDq/Titanic3.png" alt="Titanic3" border="0"></a>
+
+
+
+        </div>
+<!-- add outro text to the page body -->
+    <div class="Interpretation">
+        <h2 class="text-title">Interpretation</h2>
+        <div class="text">
+            <p>Teniendo en cuenta que las mujeres eran del 35%(466/1309) y las mujeres de 1ª y 2ª clase representan solo el 24%( (139+94)/1309) del tamaño total de la muestra, se evidencia que las personas que se pusieron en botes salvavidas no se tomaron al azar, sino de forma selectiva. La visualización de gráficos cirulares combinados muestra que las características de ser mujer y pertenecer a las clases más altas(1ª y 2ª) eran las principales prioridades para colocarse en botes salvavidas.</p>
+            </br>
+        </div>
+    </div>
+
+     <div id="plotContainer5">   
+<a href="https://ibb.co/ZhbN85p"><img src="https://i.ibb.co/JzSC7Vw/Supervivientes-por-Grupos2.png" alt="Supervivientes-por-Grupos2" border="0"></a>
+</div>
+
+        </br>
+        </br>
+        </br>
+    </div>
+
+    
+</body>
+</html>
